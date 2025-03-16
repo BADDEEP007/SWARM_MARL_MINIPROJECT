@@ -20,11 +20,12 @@ def generate_launch_description():
     default_model_path = os.path.join(pkg_share, 'urdf', 'robot.urdf')
     default_world_path = os.path.join(pkg_share, 'worlds', 'hospital.world')
     
-    # Launch Arguments
+    
     model_arg = DeclareLaunchArgument(
         name='model',
         default_value=default_model_path,
-        description='Absolute path to robot URDF/XACRO file'
+        description='Absolute pat'
+        'h to robot URDF/XACRO file'
     )
     
     world_arg = DeclareLaunchArgument(
