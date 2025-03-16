@@ -1,0 +1,1 @@
+gazebo_ros:geometry_msgs:joint_state_publisher:nav_msgs:python3-numpy:python3-tensorflow:rclpy:robot_state_publisher:rviz2:sensor_msgs:std_msgs:tf2:tf2_ros:xacro
