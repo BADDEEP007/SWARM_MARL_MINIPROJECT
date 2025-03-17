@@ -1,0 +1,23 @@
+[1.295s] Invoking command in '/home/baddeep/ros2_ws/src/marl': PYTHONPATH=/home/baddeep/ros2_ws/build/marl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baddeep/ros2_ws/install/marl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marl build --build-base /home/baddeep/ros2_ws/build/marl/build install --record /home/baddeep/ros2_ws/build/marl/install.log --single-version-externally-managed install_data
+[1.584s] running egg_info
+[1.586s] writing ../../build/marl/marl.egg-info/PKG-INFO
+[1.588s] writing dependency_links to ../../build/marl/marl.egg-info/dependency_links.txt
+[1.588s] writing entry points to ../../build/marl/marl.egg-info/entry_points.txt
+[1.588s] writing requirements to ../../build/marl/marl.egg-info/requires.txt
+[1.589s] writing top-level names to ../../build/marl/marl.egg-info/top_level.txt
+[1.590s] reading manifest file '../../build/marl/marl.egg-info/SOURCES.txt'
+[1.593s] writing manifest file '../../build/marl/marl.egg-info/SOURCES.txt'
+[1.593s] running build
+[1.593s] running build_py
+[1.593s] running install
+[1.593s] running install_lib
+[1.596s] running install_data
+[1.597s] copying launch/display_launch.py -> /home/baddeep/ros2_ws/install/marl/share/marl/launch
+[1.598s] running install_egg_info
+[1.602s] removing '/home/baddeep/ros2_ws/install/marl/lib/python3.10/site-packages/marl-0.0.1-py3.10.egg-info' (and everything under it)
+[1.605s] Copying ../../build/marl/marl.egg-info to /home/baddeep/ros2_ws/install/marl/lib/python3.10/site-packages/marl-0.0.1-py3.10.egg-info
+[1.608s] running install_scripts
+[1.638s] Installing marl_agent script to /home/baddeep/ros2_ws/install/marl/lib/marl
+[1.638s] Installing swarm_coordinator script to /home/baddeep/ros2_ws/install/marl/lib/marl
+[1.639s] writing list of installed files to '/home/baddeep/ros2_ws/build/marl/install.log'
+[1.672s] Invoked command in '/home/baddeep/ros2_ws/src/marl' returned '0': PYTHONPATH=/home/baddeep/ros2_ws/build/marl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baddeep/ros2_ws/install/marl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marl build --build-base /home/baddeep/ros2_ws/build/marl/build install --record /home/baddeep/ros2_ws/build/marl/install.log --single-version-externally-managed install_data

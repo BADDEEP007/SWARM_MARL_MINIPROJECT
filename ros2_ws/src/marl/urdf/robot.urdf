@@ -76,6 +76,10 @@
       </geometry>
     </collision>
   </link>
+
+ 
+
+
   
   <!-- Caster Wheel -->
   <link name="caster_wheel">
@@ -161,7 +165,7 @@
   
   <!-- Joint Definitions -->
   <!-- Left Wheel Joint -->
-  <joint name="left_wheel_joint" type="continuous">
+  <joint name="left_joint" type="continuous">
     <parent link="base_link"/>
     <child link="left_wheel"/>
     <origin xyz="0 0.06 0.02" rpy="0 0 0"/>
@@ -170,11 +174,11 @@
   </joint>
   
   <!-- Right Wheel Joint -->
-  <joint name="right_wheel_joint" type="continuous">
+  <joint name="right_joint" type="continuous">
     <parent link="base_link"/>
     <child link="right_wheel"/>
     <origin xyz="0 -0.06 0.02" rpy="0 0 0"/>
-    <axis xyz="0 1 0"/>
+    <axis xyz="0 -1 0"/>
     <dynamics damping="0.1"/>
   </joint>
   
@@ -209,7 +213,7 @@
   <!-- Transmissions for Control -->
   <transmission name="left_wheel_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="left_wheel_joint">
+    <joint name="left_joint">
       <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
     </joint>
     <actuator name="left_wheel_motor">
@@ -220,7 +224,7 @@
   
   <transmission name="right_wheel_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="right_wheel_joint">
+    <joint name="right_joint">
       <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
     </joint>
     <actuator name="right_wheel_motor">
@@ -235,8 +239,8 @@
       <legacyMode>false</legacyMode>
       <alwaysOn>true</alwaysOn>
       <updateRate>20</updateRate>
-      <leftJoint>left_wheel_joint</leftJoint>
-      <rightJoint>right_wheel_joint</rightJoint>
+      <leftJoint>left_joint</leftJoint>
+      <rightJoint>right_joint</rightJoint>
       <wheelSeparation>0.12</wheelSeparation>
       <wheelDiameter>0.04</wheelDiameter>
       <torque>0.1</torque>

@@ -1,0 +1,25 @@
+running develop
+running egg_info
+writing marl.egg-info/PKG-INFO
+writing dependency_links to marl.egg-info/dependency_links.txt
+writing entry points to marl.egg-info/entry_points.txt
+writing requirements to marl.egg-info/requires.txt
+writing top-level names to marl.egg-info/top_level.txt
+reading manifest file 'marl.egg-info/SOURCES.txt'
+writing manifest file 'marl.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/baddeep/ros2_ws/install/marl/lib/python3.10/site-packages/marl.egg-link (link to .)
+Installing marl_agent script to /home/baddeep/ros2_ws/install/marl/lib/marl
+Installing swarm_coordinator script to /home/baddeep/ros2_ws/install/marl/lib/marl
+
+Installed /home/baddeep/ros2_ws/build/marl
+running symlink_data
+symbolically linking /home/baddeep/ros2_ws/build/marl/resource/marl -> /home/baddeep/ros2_ws/install/marl/share/ament_index/resource_index/packages
+symbolically linking /home/baddeep/ros2_ws/build/marl/package.xml -> /home/baddeep/ros2_ws/install/marl/share/marl
+symbolically linking /home/baddeep/ros2_ws/build/marl/launch/view_hospital.launch.py -> /home/baddeep/ros2_ws/install/marl/share/marl/launch
+symbolically linking /home/baddeep/ros2_ws/build/marl/launch/display_launch_gazebo.py -> /home/baddeep/ros2_ws/install/marl/share/marl/launch
+symbolically linking /home/baddeep/ros2_ws/build/marl/launch/display_launch.py -> /home/baddeep/ros2_ws/install/marl/share/marl/launch
+symbolically linking /home/baddeep/ros2_ws/build/marl/launch/world_robot_launch.py -> /home/baddeep/ros2_ws/install/marl/share/marl/launch
+symbolically linking /home/baddeep/ros2_ws/build/marl/launch/swarm.launch.py -> /home/baddeep/ros2_ws/install/marl/share/marl/launch
+symbolically linking /home/baddeep/ros2_ws/build/marl/worlds/swarm_world.sdf -> /home/baddeep/ros2_ws/install/marl/share/marl/worlds
+symbolically linking /home/baddeep/ros2_ws/build/marl/urdf/robot.urdf -> /home/baddeep/ros2_ws/install/marl/share/marl/urdf

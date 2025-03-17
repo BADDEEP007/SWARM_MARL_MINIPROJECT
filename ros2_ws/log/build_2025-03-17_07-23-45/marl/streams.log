@@ -1,0 +1,27 @@
+[1.278s] Invoking command in '/home/baddeep/ros2_ws/build/marl': PYTHONPATH=/home/baddeep/ros2_ws/build/marl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baddeep/ros2_ws/install/marl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/baddeep/ros2_ws/build/marl/build --no-deps symlink_data --force
+[1.731s] running develop
+[1.978s] running egg_info
+[1.978s] writing marl.egg-info/PKG-INFO
+[1.978s] writing dependency_links to marl.egg-info/dependency_links.txt
+[1.979s] writing entry points to marl.egg-info/entry_points.txt
+[1.979s] writing requirements to marl.egg-info/requires.txt
+[1.979s] writing top-level names to marl.egg-info/top_level.txt
+[1.982s] reading manifest file 'marl.egg-info/SOURCES.txt'
+[1.984s] writing manifest file 'marl.egg-info/SOURCES.txt'
+[1.986s] running build_ext
+[1.986s] Creating /home/baddeep/ros2_ws/install/marl/lib/python3.10/site-packages/marl.egg-link (link to .)
+[1.993s] Installing marl_agent script to /home/baddeep/ros2_ws/install/marl/lib/marl
+[1.993s] Installing swarm_coordinator script to /home/baddeep/ros2_ws/install/marl/lib/marl
+[1.993s] 
+[1.993s] Installed /home/baddeep/ros2_ws/build/marl
+[1.994s] running symlink_data
+[1.995s] symbolically linking /home/baddeep/ros2_ws/build/marl/resource/marl -> /home/baddeep/ros2_ws/install/marl/share/ament_index/resource_index/packages
+[1.997s] symbolically linking /home/baddeep/ros2_ws/build/marl/package.xml -> /home/baddeep/ros2_ws/install/marl/share/marl
+[1.997s] symbolically linking /home/baddeep/ros2_ws/build/marl/launch/view_hospital.launch.py -> /home/baddeep/ros2_ws/install/marl/share/marl/launch
+[1.998s] symbolically linking /home/baddeep/ros2_ws/build/marl/launch/display_launch_gazebo.py -> /home/baddeep/ros2_ws/install/marl/share/marl/launch
+[2.001s] symbolically linking /home/baddeep/ros2_ws/build/marl/launch/display_launch.py -> /home/baddeep/ros2_ws/install/marl/share/marl/launch
+[2.001s] symbolically linking /home/baddeep/ros2_ws/build/marl/launch/world_robot_launch.py -> /home/baddeep/ros2_ws/install/marl/share/marl/launch
+[2.001s] symbolically linking /home/baddeep/ros2_ws/build/marl/launch/swarm.launch.py -> /home/baddeep/ros2_ws/install/marl/share/marl/launch
+[2.001s] symbolically linking /home/baddeep/ros2_ws/build/marl/worlds/swarm_world.sdf -> /home/baddeep/ros2_ws/install/marl/share/marl/worlds
+[2.009s] symbolically linking /home/baddeep/ros2_ws/build/marl/urdf/robot.urdf -> /home/baddeep/ros2_ws/install/marl/share/marl/urdf
+[2.046s] Invoked command in '/home/baddeep/ros2_ws/build/marl' returned '0': PYTHONPATH=/home/baddeep/ros2_ws/build/marl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baddeep/ros2_ws/install/marl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/baddeep/ros2_ws/build/marl/build --no-deps symlink_data --force
